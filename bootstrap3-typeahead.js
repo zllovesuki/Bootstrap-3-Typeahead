@@ -114,7 +114,7 @@
               .val(this.displayText(newVal) || newVal)
               .text(this.displayText(newVal) || newVal)
               .change();
-            this.afterSelect(newVal);
+
             if(this.followLinkOnSelect && this.itemLink(val)) {
                 document.location = this.itemLink(val);
                 this.afterSelect(newVal);
