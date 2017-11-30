@@ -639,7 +639,7 @@
   Typeahead.defaults = {
     source: [],
     items: 8,
-    menu: '<ul class="typeahead dropdown-menu" role="listbox"></ul>',
+    menu: '<ul class="small typeahead dropdown-menu" role="listbox"></ul>',
     item: '<li><a class="dropdown-item" href="#" role="option"></a></li>',
     itemContentSelector:'a',
     minLength: 1,
